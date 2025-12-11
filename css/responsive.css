@@ -1,0 +1,95 @@
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .main-content {
+        gap: 20px;
+    }
+    
+    .current-time {
+        font-size: 3rem;
+    }
+    
+    .comparison-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .location-selector {
+        grid-column: span 1;
+    }
+    
+    h1 {
+        font-size: 2.2rem;
+    }
+    
+    .current-time {
+        font-size: 2.5rem;
+    }
+    
+    .logo {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .filter-buttons {
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding-bottom: 10px;
+    }
+    
+    .filter-btn {
+        white-space: nowrap;
+    }
+    
+    .map-container {
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+    .current-time {
+        font-size: 2rem;
+    }
+    
+    .current-date {
+        font-size: 1.1rem;
+    }
+    
+    .time-details {
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+    
+    .detail-item {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .search-box input {
+        padding: 12px 15px;
+    }
+    
+    .locations-grid {
+        grid-template-columns: 1fr;
+        max-height: 300px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
